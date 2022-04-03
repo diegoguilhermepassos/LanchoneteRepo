@@ -294,20 +294,21 @@ public class Cardapio extends javax.swing.JFrame {
     
     int quantSuco = suco * 7;
     
-    
+    int total = quantCoca + quantAgua + quantPipoca + quantBolo + quantCoxinha + quantPastel + quantBurge + quantTorta + quantSuco;
     
         
         
-       JOptionPane.showMessageDialog(null,"Voce escolheu\n"
-               + TFcoca.getText() + " - Coca-cola, Valor: " + quantCoca +" reais\n"
-               + TFagua.getText() + " - Água, Valor: " + quantAgua +" reais\n"
-               + TFpipoca.getText() + " - Pipoca, Valor: " + quantPipoca +" reais\n"
-               + TFbolo.getText() + " - Bolo, Valor: " + quantBolo +" reais\n"
-               + TFcoxinha.getText() + " - Coxinha, Valor: " + quantCoxinha +" reais\n"
-               + TFpastel.getText() + " - Pastel, Valor: " + quantPastel +" reais\n"
-               + TFburge.getText() + " - Lanches, Valor: " + quantBurge +" reais\n"
-               + TFtorta.getText() + " - Torta, Valor: " + quantTorta +" reais\n"
-               + TFsuco.getText() + " - Suco, Valor: " + quantSuco +" reais\n");
+       JOptionPane.showMessageDialog(null,"NotaFiscal:\n"
+               + TFcoca.getText() + " - Coca-cola, Valor: $" + quantCoca +"\n"
+               + TFagua.getText() + " - Água, Valor: $" + quantAgua +"\n"
+               + TFpipoca.getText() + " - Pipoca, Valor: $" + quantPipoca +" \n"
+               + TFbolo.getText() + " - Bolo, Valor: $" + quantBolo +" \n"
+               + TFcoxinha.getText() + " - Coxinha, Valor: $" + quantCoxinha +" \n"
+               + TFpastel.getText() + " - Pastel, Valor: $" + quantPastel +" \n"
+               + TFburge.getText() + " - Lanches, Valor: $" + quantBurge +" \n"
+               + TFtorta.getText() + " - Torta, Valor: $" + quantTorta +" \n"
+               + TFsuco.getText() + " - Suco, Valor:$ " + quantSuco +" \n"
+               + "Total:$"  + total);
        
     }//GEN-LAST:event_BTparaNotaFiscalActionPerformed
 

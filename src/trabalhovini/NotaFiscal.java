@@ -3,7 +3,7 @@ package trabalhovini;
 
 import trabalhovini.Cadastro;
 
-public class NotaFiscal extends Cadastro {
+public class NotaFiscal extends javax.swing.JFrame {
     
     private String email;
 
